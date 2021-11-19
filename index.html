@@ -11,7 +11,9 @@
         <title>trillo &mdash; Your all-in-one booking app</title>
     </head>
     <body>
+        <!--CONTAINER STARTS HERE-->
         <div class="container">
+            <!--HEADER STARTS HERE-->
             <header class = "header">
                 <img src="img/logo.png" class = "logo" alt="Trillo Logo">
                 <form action="#" class = "search">
@@ -47,7 +49,13 @@
                     </div>
                 </nav>
             </header>
+
+            <!--HEADER ENDS HERE-->
+            <!--CONTENT STARTS HERE-->
             <div class="content">
+
+                <!--SIDEBAR STARTS HERE-->
+
                 <nav class="sidebar">
                     <ul class = "side-nav">
                         <li class="side-nav__item side-nav__item--active">
@@ -92,10 +100,124 @@
                     </div>
 
                 </nav>
+
+                <!--SIDEBAR ENDS HERE-->
+
+                <!--HOTEL VIEW STARTS HERE-->
                 <main class="hotel-view">
-                    Hotel View
+                    <!--GALLERY STARTS HERE-->
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img class="gallery__photo" src="img/hotel-1.jpg" alt="Photo of hotel 1">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img class="gallery__photo" src="img/hotel-2.jpg" alt="Photo of hotel 2">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img class="gallery__photo" src="img/hotel-3.jpg" alt="Photo of hotel 3">
+                        </figure>
+                    </div>
+                    <!--GALLERY ENDS HERE-->
+                    <!--OVERVIEW STARTS HERE-->
+                    <div class="overview">
+                        <h1 class = "overview__heading"> 
+                            Hotel Las Palmas
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class = "overview__icon-star">
+                                <use xlink:href = "img/sprite.svg#icon-star">
+                                </use>
+                            </svg>
+                            <svg class = "overview__icon-star">
+                                <use xlink:href = "img/sprite.svg#icon-star">
+                                </use>
+                            </svg>
+                            <svg class = "overview__icon-star">
+                                <use xlink:href = "img/sprite.svg#icon-star">
+                                </use>
+                            </svg>
+                            <svg class = "overview__icon-star">
+                                <use xlink:href = "img/sprite.svg#icon-star">
+                                </use>
+                            </svg>
+                            <svg class = "overview__icon-star">
+                                <use xlink:href = "img/sprite.svg#icon-star">
+                                </use>
+                            </svg>
+                        </div>
+                        <div class="overview__location">
+                            <svg class = "overview__icon-location">
+                                <use xlink:href = "img/sprite.svg#icon-location-pin">
+                                </use>
+                            </svg>
+                            <button class="btn-inline">
+                                Alfuiera, Portugal
+                            </button>
+                        </div>
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">429 votes</div>
+                        </div>
+                    </div>
+                    <!--OVERVIEW ENDS HERE-->
+
+                    <!--DETAILS STARTS HERE-->
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                            </p>
+                            <p class="paragraph">
+                                Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">
+                                    Close to the beach
+                                </li>
+                                <li class="list__item">
+                                    Breakfast included
+                                </li>
+                                <li class="list__item">
+                                    Free airport shuttle
+                                </li>
+                                <li class="list__item">
+                                    Free wifi in all rooms
+                                </li>
+                                <li class="list__item">
+                                    Air conditioning and heating
+                                </li>
+                                <li class="list__item">
+                                    Pets allowed
+                                </li>
+                                <li class="list__item">
+                                    We speak all languages
+                                </li>
+                                <li class="list__item">
+                                    Perfect for families
+                                </li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Lucy and 3 other friends recommend this hotel.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img class = "recommend__photo" src="img/user-1.jpg" alt="friend 1">
+                                    <img class = "recommend__photo" src="img/user-2.jpg" alt="friend 2">
+                                    <img class = "recommend__photo" src="img/user-3.jpg" alt="friend 3">
+                                    <img class = "recommend__photo" src="img/user-4.jpg" alt="friend 4">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="user-review">
+                            User Review
+                        </div>
+                    </div>
                 </main>
+                <!--HOTEL VIEW ENDS HERE-->
             </div>
+            <!--CONTENT ENDS HERE-->
         </div>
+        <!--CONTAINEER ENDS HERE-->
     </body>
 </html>
